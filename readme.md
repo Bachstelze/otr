@@ -57,7 +57,7 @@ The normal flow for making a release is as follows,
 expensive and can take several seconds.
 
     // precompute your DSA key
-    var myKey = new DSA()
+    var myKey = new DSA();
 
 For each user you're communicating with, instantiate an OTR object.
 
